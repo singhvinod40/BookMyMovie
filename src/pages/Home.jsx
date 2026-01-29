@@ -1,10 +1,16 @@
 import React from 'react'
+import HeroSectiom from '../components/HeroSection';
+import FeatureSection from '../components/FeatureSection';
+import TrailerSection from '../components/TrailerSection';
+
 
 const Home = () => {
   return (
-    <div>
-      
-    </div>
+    <>
+      <HeroSectiom/>
+      <FeatureSection/>
+      <TrailerSection/>
+    </>
   )
 }
 

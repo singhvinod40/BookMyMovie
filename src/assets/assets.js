@@ -1,13 +1,14 @@
 import logo from './logo.svg'
-import marvelLogo from './marvelLogo.svg'
+import tseries from './tseries.png'
 import googlePlay from './googlePlay.svg'
 import appStore from './appStore.svg'
 import screenImage from './screenImage.svg'
 import profile from './profile.png'
+import trailerImg from '../assets/trailerImage.jpg'
 
 export const assets = {
     logo,
-    marvelLogo,
+    tseries,
     googlePlay,
     appStore,
     screenImage,
@@ -16,8 +17,8 @@ export const assets = {
 
 export const dummyTrailers = [
     {
-        image: "https://img.youtube.com/vi/WpW36ldAqnM/maxresdefault.jpg",
-        videoUrl: 'https://www.youtube.com/watch?v=WpW36ldAqnM'
+        image: trailerImg,
+        videoUrl: 'https://www.youtube.com/watch?v=LixDSK0BRFs'
     },
     {
         image: "https://img.youtube.com/vi/-sAOWhvheK8/maxresdefault.jpg",
