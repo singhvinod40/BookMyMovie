@@ -63,7 +63,7 @@ const MovieDetails = () => {
         </div>
         <div className="flex items-center flex-wrap gap-4 mt-4 ">
           <button className="flex items-center gap-2 px-7 py-3 text-sm  bg-gray-800 hover:gray-900 
-           transition rounded-md font-medium cursor-pointer active:scale-95">
+          transition rounded-md font-medium cursor-pointer active:scale-95">
             <PlayCircleIcon className="w-5 h-5 inline-block mr-2" />
             Watch Trailer </button>
           <a href="#dateSelect" className="px-10 py-3 text-sm bg-red-400 hover:bg-red-300 transition rounded-md 
